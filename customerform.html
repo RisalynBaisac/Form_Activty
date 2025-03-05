@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title >Customer Satisfaction Survey Form</title>
+	<style>
+		body{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			margin: 0;
+		}
+
+		.window {
+           border-radius: 20px 20px 20px 20px;
+           background:skyblue;
+           padding: 30px;
+           width: 50%;
+           max-width: 600px;
+           
+       }
+		.box{
+			width: 300px;
+			height: 100px;
+			border: 2px solid black;
+			text-align: left;
+			padding: 20px;
+			background-color: white;
+		}
+
+		.button{
+			padding: 10px 20px;
+			font-size: 15px;
+			border-radius: 5px;
+			cursor: pointer;
+			margin: 5px;\
+			align-content: center;
+		}
+		.submit-button{
+			background-color:darkblue;
+			color: white;
+		}
+		.submit-button:hover{
+			background: darkblue;
+
+		}
+		.reset-button{
+			background-color:darkblue;
+			color: white;
+		}
+		.reset-button:hover{
+			background-color: darkblue;
+		}
+
+		.buttons{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap:2em;
+		}
+
+	</style>
+
+</head>
+<body background="color1.jpeg">
+	<div class="window">
+		<h1 class="center-text">Customer Satisfaction Survey Form</h1>
+
+	<form>
+	<h4>1) Why did you contact customer service?</h4>
+	<div class="box"></div>
+		<h4>2) What method did you use to contact customer service?</h4>
+		<input type="radio">
+		<label for="name">Telephone</label>
+		<input type="radio">
+		<label for = "name"> Mail</label>
+		<input type="radio">
+		<label for = "name"> E-mail</label>
+		<input type="radio">
+		<label for = "name"> Fax</label>
+		<input type="radio">
+		<label for = "name"> Other: </label>
+		<textarea id="message" name="name" rows="1" cols="40" required></textarea>
+
+		<h4>3) How satisfied are you with the time it took customer service to answer your question or resolve your issue?</h4>
+		<input type="radio">
+		<label for="name">Very Dissatisfied</label>
+		<input type="radio">
+		<label for = "name"> Dissatisfied</label>
+		<input type="radio">
+		<label for = "name"> Undecided</label>
+		<input type="radio">
+		<label for = "name"> Satisfied</label>
+		<input type="radio">
+		<label for = "name"> Very Satisfied</label><br>
+
+		<h3> Please tell us how much you agree or disagree with the following statements.</h3>
+		<h4>4) The customer service representative was knowledge and easy to understand</h4>
+		<input type="radio">
+		<label for="name">Very Dissatisfied</label>
+		<input type="radio">
+		<label for = "name"> Dissatisfied</label>
+		<input type="radio">
+		<label for = "name"> Undecided</label>
+		<input type="radio">
+		<label for = "name"> Satisfied</label>
+		<input type="radio">
+		<label for = "name"> Very Satisfied</label>
+
+		<h4>5) The customer service representative was able to handle any problem quickly and to my satisfaction.</h4>
+		<input type="radio">
+		<label for="name">Very Dissatisfied</label>
+		<input type="radio">
+		<label for = "name"> Dissatisfied</label>
+		<input type="radio">
+		<label for = "name"> Undecided</label>
+		<input type="radio">
+		<label for = "name"> Satisfied</label>
+		<input type="radio">
+		<label for = "name"> Very Satisfied</label>
+
+		<div class="buttons">
+				<input type= "submit" class="button submit-button" value="Submit"></button>
+				<input type="reset" class="button reset-button" value="Reset"></button>
+		</div>
+		
+	</form>
+</div>
+</body>
+</html>
